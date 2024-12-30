@@ -1,10 +1,6 @@
 # CTA
-Building with the CTA's Train Tracker API
+Building with the CTA's Train Tracker API  
+https://www.transitchicago.com/developers/traintracker/
 
-
-get_arrivals.py :  
-uses the python requests package and the CTA train tracker API to send a request a sample request taken from the train tracker API docs:  
-https://www.transitchicago.com/developers/ttdocs/#_Toc296199906  
-The request gets a maximum of one arrival prediction result from the station with the ID #40360 - Southport. It also passes the API key for authorization (required).  
-request:  
-http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx?key=""&max=1& mapid=40360&outputType=JSON
+get_arrivals.py:  
+Get a list of upcoming arrivals from a station and print them out to the user. Currently, the example used is from the Southport Brown line stop
