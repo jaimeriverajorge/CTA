@@ -49,7 +49,7 @@ def printTrains(trains):
 
 def main(): 
     #CTA API Key
-    key = '971b7cc22ddf4804902cc49d2c8b6063'
+    key = ''
     #station ID - in the original example Southport
     map_id = '40360'
     #amount of trains returned in response
