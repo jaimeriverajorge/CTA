@@ -46,7 +46,6 @@ def printTrains(trains):
         print(time)
         i+=1
 
-
 def main(): 
     #CTA API Key
     key = ''
